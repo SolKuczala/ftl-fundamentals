@@ -16,7 +16,7 @@ func TestAdd(t *testing.T) {
 		{a: 0, b: 1, want: 1, name: "two low positive numbers which sum to a positive number"},
 		{a: 10, b: 10, want: 20, name: "two positive numbers which sum to a positive number"},
 		{a: 0, b: 0, want: 0, name: "two zeros which sum to a zero"},
-		{a: 2, b: -1, want: 0, name: "one positive number and one negative which sum to a positive number"},
+		{a: 2, b: -1, want: 1, name: "one positive number and one negative which sum to a positive number"},
 		{a: -10, b: 10, want: 0},
 	}
 	t.Parallel()
